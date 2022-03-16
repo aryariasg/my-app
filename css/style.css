@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  background-color: pink;
+  height: 80px;
+  width: auto;
+  align-items: center;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+ul li ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

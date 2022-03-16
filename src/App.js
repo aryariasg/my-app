@@ -1,13 +1,13 @@
-
-import './App.css';
+import './scss/app.scss'
+import Navbar from './components/NavBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-        
-        <h3> Hola mundo! 🪅</h3>
-       
-    </div>
+ 
+    <>
+    <Navbar/>
+    </>
+  
   );
 }
 
