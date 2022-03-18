@@ -1,9 +1,13 @@
 import React from 'react';
+import CartWidget from '../CartWidget/CartWidget';
 
 const Navbar = () => {
     return ( 
         <>
         <div className = 'navBar' >
+            <div className = 'logo'>
+            <img src='./image/bethemestore.png'alt=''/>
+        </div>
             <div className = 'list'>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -13,6 +17,7 @@ const Navbar = () => {
                 </ul>
             </div>
         </div>
+        <CartWidget/>
         </>
     )
 }
