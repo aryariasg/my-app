@@ -3,10 +3,9 @@ import React from 'react'
 const CartWidget = () => {
     return (  
         <div className = 'cart'>
-            <i className='fas fa-shopping-cart'></i>
-
+            <i class="fa-solid fa-bag-shopping"></i>
         </div>
     );
 }
- 
+
 export default CartWidget;

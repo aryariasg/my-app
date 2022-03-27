@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
         <div className = 'navBar' >
             <div className = 'logo'>
-            <img src='./image/bethemestore.png'alt=''/>
+            <img src='https://themes.muffingroup.com/betheme-store/wp-content/uploads/2021/09/bethemestore.png'alt=''/>
         </div>
             <div className = 'list'>
                 <ul>

@@ -1,13 +1,11 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-//Navbar
-
-.navBar{
+.navBar {
   display: flex;
   background-color: #FFFF;
   height: 80px;
@@ -15,51 +13,40 @@
   align-items: center;
 }
 
-
-
-ul li{
+ul li {
   display: inline;
   padding: 20px;
-
-
 }
 
-.navBar ul li a{
+.navBar ul li a {
   text-decoration: none;
   color: #626262;
   font-weight: 400;
 }
 
 .logo {
-
   padding: 80px;
   letter-spacing: 1px;
   cursor: pointer;
-
-
 }
 
-ul li a:hover{
+ul li a:hover {
   color: #0089F7;
   transition: 0.5s;
 }
 
-
-.cart i{
-	color:#0089F7;
-	padding: 12px 35px;
-	border-radius: 45px;
-	transition: 0.4s;
-	text-decoration: none;
+.cart i {
+  color: #0089F7;
+  padding: 12px 35px;
+  border-radius: 45px;
+  transition: 0.4s;
+  text-decoration: none;
   cursor: pointer;
   font-size: 18px;
-
 }
 
-.cart i:hover{
+.cart i:hover {
   background-color: rgba(255, 255, 255, 0.747);
-  
-
 }
 
 .cart {
@@ -67,50 +54,34 @@ ul li a:hover{
   margin-top: -59px;
 }
 
-//titulo
-.item-list-container{
+.item-list-container {
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 7%;
-
-
-  img{
-    height: 350px;
-    width: auto;
-  }
+}
+.item-list-container img {
+  height: 350px;
+  width: auto;
 }
 
-//Botones contador
-
-.count_container_counter{
+.count_container_counter {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  .count_container_initial{
-    margin: 10%;
-  }
-
-
-
-  
 }
-
+.count_container_counter .count_container_initial {
+  margin: 10%;
+}
 
 button {
   border-style: none;
 }
 
-
-
-//componente produclist
 .product-list-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: center;
   gap: 30px 60px;
   margin: 40px 20px;
-}
-
-
+}/*# sourceMappingURL=app.css.map */
