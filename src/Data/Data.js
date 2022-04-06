@@ -4,6 +4,7 @@
 export const productList = [
     {
       name: 'Headphones',
+      category: 'Headphone',
       price: 9.307,
       description: "Curabitur interdum vitae, fringilla orci. Proin luctus. Sed neque. Vestibulum nibh eu wisi. Phasellus ipsum eget lacus vehicula ullamcorper, augue eu cursus a, mauris. Ut bibendum wisi eget",
       image:
@@ -13,6 +14,7 @@ export const productList = [
     },
     {
       name: 'Phone',
+      category: 'Phone',
       price: 98.699,
       description: "Curabitur interdum vitae, fringilla orci. Proin luctus. Sed neque. Vestibulum nibh eu wisi. Phasellus ipsum eget lacus vehicula ullamcorper, augue eu cursus a, mauris. Ut bibendum wisi eget",
 
@@ -23,6 +25,7 @@ export const productList = [
     },
     {
       name: 'Smartwatch',
+      category: 'Smartwatch',
       price: 27.799,
       description: "Curabitur interdum vitae, fringilla orci. Proin luctus. Sed neque. Vestibulum nibh eu wisi. Phasellus ipsum eget lacus vehicula ullamcorper, augue eu cursus a, mauris. Ut bibendum wisi eget",
       image:
